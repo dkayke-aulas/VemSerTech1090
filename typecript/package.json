@@ -1,0 +1,12 @@
+{
+  "name": "turma-1090-typescript",
+  "version": "1.0.0",
+  "description": "Projeto TS da turma 1090",
+  "scripts": {
+    "start": "rm -rf ./dist && tsc && node ./dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}
