@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // versão do ECMAScript
+        "module": "CommonJS",
+        "rootDir": "./src",
+        "outDir": "./dist"
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "./dist"
+    ]
+}

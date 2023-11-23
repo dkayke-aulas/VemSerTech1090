@@ -1,0 +1,13 @@
+{
+  "name": "locadora-veiculos",
+  "version": "1.0.0",
+  "description": "Projeto de locadora de veiculos",
+  "scripts": {
+    "start": "rm -rf ./dist && tsc && node ./dist/index.js",
+    "view": "node ./dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}
